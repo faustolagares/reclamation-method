@@ -1,9 +1,100 @@
 @import "tailwindcss";
 
+/* ─── Canela ─────────────────────────────────────────── */
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-Regular-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-RegularItalic-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-Light-Trial.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-LightItalic-Trial.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ─── Canela Deck (H2 / H3 médios) ──────────────────── */
+@font-face {
+  font-family: "Canela Deck";
+  src: url("/fonts/canela/Canela Deck Family/CanelaDeck-Regular-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela Deck";
+  src: url("/fonts/canela/Canela Deck Family/CanelaDeck-RegularItalic-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ─── Neue Haas Grotesk Text ─────────────────────────── */
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-55roman-trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-56italic-trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-65medium-trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-66mediumitalic-trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-75bold-trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-76bolditalic-trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Canela", var(--font-fraunces), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  
+  --font-sans: "Neue Haas Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Canela", ui-serif, Georgia, serif;
+  --font-deck: "Canela Deck", "Canela", ui-serif, Georgia, serif;
+
   --color-brand-bg: #F5F4F0;
   --color-brand-surface: #EAE8E1;
   --color-brand-dark: #121613;

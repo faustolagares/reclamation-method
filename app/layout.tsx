@@ -1,19 +1,5 @@
 import type {Metadata} from 'next';
-import { Fraunces, Inter } from 'next/font/google';
-import './globals.css'; // Global styles
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  axes: ['SOFT', 'WONK', 'opsz'],
-  variable: '--font-fraunces',
-  display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Reclamation Method | Karita Cassia',
@@ -42,7 +28,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+    <html lang="en">
       <body className="font-sans bg-brand-bg text-brand-dark antialiased" suppressHydrationWarning>{children}</body>
     </html>
   );
