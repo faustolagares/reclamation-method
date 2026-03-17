@@ -203,7 +203,7 @@ export default function Home() {
     <main className="min-h-screen font-sans bg-brand-bg text-brand-dark selection:bg-brand-olive selection:text-brand-bg">
       {/* Navigation */}
       <nav className={`top-0 left-0 w-full z-50 flex items-center justify-center px-4 sm:px-6 py-4 sm:py-3 transition-colors duration-300 ${isMobileMenuOpen ? 'fixed bg-brand-bg' : 'absolute'}`}>
-        <div className="w-full max-w-[1350px] flex items-center justify-between">
+        <div className="w-full max-w-[1440px] flex items-center justify-between">
           <div className="text-xl sm:text-2xl font-serif font-bold tracking-tight relative z-50">Reclamation Method</div>
           <div className="hidden md:flex items-center gap-8 text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark/70">
             <a href="#" className="hover:text-brand-olive transition-colors">Home</a>
@@ -242,7 +242,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
-            className="fixed inset-0 z-40 bg-brand-bg flex flex-col px-6 pt-24 pb-16 sm:pb-12 h-[100dvh] overflow-hidden md:hidden"
+            className="fixed inset-0 z-40 bg-brand-bg flex flex-col px-8 lg:px-12 pt-24 pb-16 sm:pb-12 h-[100dvh] overflow-hidden md:hidden"
           >
             <div className="flex flex-col gap-5 sm:gap-6 mt-4">
               <a href="#" className="font-serif text-3xl sm:text-4xl text-brand-dark hover:text-brand-olive transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
@@ -253,10 +253,10 @@ export default function Home() {
               <a href="#" className="font-serif text-3xl sm:text-4xl text-brand-dark hover:text-brand-olive transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
             </div>
             <div className="mt-auto pt-6 pb-4 flex flex-col gap-3">
-              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg transition-colors">
+              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg transition-colors">
                 Book a Consultation
               </button>
-              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive transition-colors">
+              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive transition-colors">
                 Learn More
               </button>
             </div>
@@ -265,7 +265,7 @@ export default function Home() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section className="pt-40 md:pt-48 lg:pt-56 pb-16 md:pb-24 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1350px] mx-auto w-full">
+      <section className="pt-40 md:pt-48 lg:pt-56 pb-16 md:pb-24 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1440px] mx-auto w-full">
         <FadeIn className="flex flex-col items-center w-full">
           <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 text-brand-dark text-balance max-w-6xl mx-auto w-full">
@@ -323,7 +323,7 @@ export default function Home() {
       </section>
 
       {/* Architecture Section */}
-      <section className="py-24 px-6 flex flex-col items-center text-center max-w-4xl mx-auto">
+      <section className="py-24 px-8 lg:px-12 flex flex-col items-center text-center max-w-4xl mx-auto">
         <FadeIn>
           <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">The Reclamation Method</div>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 text-brand-dark">
@@ -337,7 +337,7 @@ export default function Home() {
       </section>
 
       {/* 3 Column Cards Section */}
-      <section className="pb-32 px-6 max-w-[1350px] mx-auto">
+      <section className="pb-32 px-8 lg:px-12 max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
             {
@@ -386,8 +386,8 @@ export default function Home() {
       </section>
 
       {/* Core Framework Section */}
-      <section className="py-32 px-6 bg-brand-dark text-brand-bg">
-        <div className="max-w-[1350px] mx-auto">
+      <section className="py-32 px-8 lg:px-12 bg-brand-dark text-brand-bg">
+        <div className="max-w-[1440px] mx-auto">
           <FadeIn>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12 mb-24">
               <div className="max-w-3xl">
@@ -458,8 +458,8 @@ export default function Home() {
         </div>
       </section>
       {/* Female Nutrition Architecture Section (Relume Layout 13 Adapted) */}
-      <section className="py-32 px-6 bg-brand-bg">
-        <div className="max-w-[1350px] mx-auto">
+      <section className="py-32 px-8 lg:px-12 bg-brand-bg">
+        <div className="max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:items-center md:gap-x-16 lg:gap-x-24">
             <FadeIn>
               <div>
@@ -528,8 +528,8 @@ export default function Home() {
         </div>
       </section>
       {/* The Foundation Section (Relume Layout 484 Adapted) */}
-      <section className="overflow-hidden px-6 py-24 md:py-32 bg-brand-surface">
-        <div className="max-w-[1350px] mx-auto">
+      <section className="overflow-hidden px-8 lg:px-12 py-24 md:py-32 bg-brand-surface">
+        <div className="max-w-[1440px] mx-auto">
           <FadeIn>
             <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
               <p className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6 md:mb-8">
@@ -554,7 +554,7 @@ export default function Home() {
       </section>
 
       {/* Meet Karita Cassia Section (Relume Header 5 Adapted) */}
-      <section className="relative min-h-[80vh] flex items-center py-32 px-6 overflow-hidden">
+      <section className="relative min-h-[80vh] flex items-center py-32 px-8 lg:px-12 overflow-hidden">
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -568,7 +568,7 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="w-full max-w-[1350px] mx-auto relative z-10">
+        <div className="w-full max-w-[1440px] mx-auto relative z-10">
           <FadeIn>
             <div className="max-w-2xl">
               <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-brand-bg tracking-tight mb-8 text-balance">
@@ -663,8 +663,8 @@ export default function Home() {
         </div>
       </section>
       {/* Evidence Section (Relume Stats 7 Adapted) */}
-      <section className="py-32 md:py-40 px-6 bg-brand-bg">
-        <div className="max-w-[1350px] mx-auto">
+      <section className="py-32 md:py-40 px-8 lg:px-12 bg-brand-bg">
+        <div className="max-w-[1440px] mx-auto">
           <FadeIn>
             <div className="mb-20 max-w-2xl">
               <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">
@@ -729,7 +729,7 @@ export default function Home() {
       </section>
 
       {/* Newsletter Section (Relume Cta 26 Adapted) */}
-      <section className="py-32 md:py-40 px-6 bg-brand-surface">
+      <section className="py-32 md:py-40 px-8 lg:px-12 bg-brand-surface">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-6 text-brand-dark text-balance">
@@ -761,7 +761,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section (Relume Cta 25 Adapted) */}
-      <section className="py-32 md:py-40 px-6 bg-brand-dark text-brand-bg">
+      <section className="py-32 md:py-40 px-8 lg:px-12 bg-brand-dark text-brand-bg">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
             <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight mb-8 text-balance">
@@ -784,8 +784,8 @@ export default function Home() {
       </section>
 
       {/* Footer Section (Relume Footer 2 Adapted) */}
-      <footer className="pt-24 pb-12 px-6 bg-brand-bg border-t border-brand-dark/10">
-        <div className="max-w-[1350px] mx-auto">
+      <footer className="pt-24 pb-12 px-8 lg:px-12 bg-brand-bg border-t border-brand-dark/10">
+        <div className="max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 mb-24">
             
             {/* Logo & Links */}
