@@ -219,7 +219,7 @@ export default function Home() {
               <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase font-medium border border-brand-olive/40 text-brand-olive hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
                 Learn
               </button>
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-olive text-brand-bg hover:bg-brand-sage transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-gold text-brand-bg hover:bg-brand-gold/80 transition-colors">
                 Consult
               </button>
             </div>
