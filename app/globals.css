@@ -110,6 +110,7 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1.0;
+  font-weight: 400;
 }
 
 @layer base {
