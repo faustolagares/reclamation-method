@@ -269,7 +269,7 @@ export default function Home() {
         <FadeIn className="flex flex-col items-center w-full">
           <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 text-brand-dark text-balance max-w-6xl mx-auto w-full">
-            Intelligent restoration<br className="hidden sm:block" /> for the female nervous system
+            Intelligent restoration<br className="hidden sm:block lg:hidden" /> for the female nervous system
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-brand-dark/70 mb-10 md:mb-12 max-w-2xl mx-auto leading-relaxed font-light px-2 sm:px-0">
             A neuroscience-informed framework that rebuilds your biological foundation through structured nourishment, nervous system regulation, and identity recalibration.
