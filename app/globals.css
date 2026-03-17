@@ -24,6 +24,20 @@
 }
 @font-face {
   font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-Medium-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela/Canela Family/Canela-MediumItalic-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
   src: url("/fonts/canela/Canela Family/Canela-LightItalic-Trial.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -108,9 +122,14 @@ body {
   color: var(--color-brand-dark);
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
   line-height: 1.0;
   font-weight: 400;
+}
+
+h2 {
+  line-height: 1.0;
+  font-weight: 500;
 }
 
 @layer base {
