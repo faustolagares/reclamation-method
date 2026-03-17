@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Canela", var(--font-fraunces), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-brand-bg: #F5F4F0;
+  --color-brand-surface: #EAE8E1;
+  --color-brand-dark: #121613;
+  --color-brand-olive: #5A6B50;
+  --color-brand-sage: #8A9A86;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-dark);
+}
