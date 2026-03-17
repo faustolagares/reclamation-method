@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent, useTransform } from 'motion/react';
-import { Facebook, Instagram, Twitter, Linkedin, Youtube, ArrowRight, Menu, X } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Youtube, ArrowRight, Menu, X, Brain, Clock, User } from 'lucide-react';
 
 const FadeIn = ({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) => (
   <motion.div
@@ -267,6 +267,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-40 md:pt-48 lg:pt-56 pb-16 md:pb-24 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1350px] mx-auto w-full">
         <FadeIn className="flex flex-col items-center w-full">
+          <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 leading-[1.1] md:leading-[1.05] text-brand-dark text-balance max-w-6xl mx-auto w-full">
             Intelligent restoration for the female nervous system
           </h1>
@@ -280,6 +281,27 @@ export default function Home() {
             <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors w-full sm:w-auto">
               Learn About The Method
             </button>
+          </div>
+
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 w-full px-2 sm:px-0">
+            <div className="flex items-center gap-3">
+              <Brain className="w-4 h-4 text-brand-olive shrink-0" />
+              <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">Neuroscience-Informed</span>
+            </div>
+
+            <div className="hidden sm:block w-px h-6 bg-brand-dark/10" />
+
+            <div className="flex items-center gap-3">
+              <Clock className="w-4 h-4 text-brand-olive shrink-0" />
+              <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">15+ Years of Practice</span>
+            </div>
+
+            <div className="hidden sm:block w-px h-6 bg-brand-dark/10" />
+
+            <div className="flex items-center gap-3">
+              <User className="w-4 h-4 text-brand-olive shrink-0" />
+              <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">100% Personalized</span>
+            </div>
           </div>
         </FadeIn>
       </section>
