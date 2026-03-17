@@ -216,10 +216,10 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3 sm:gap-4 relative z-50">
             <div className="hidden md:flex items-center gap-4">
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase font-medium border border-brand-olive/40 text-brand-olive hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
                 Learn
               </button>
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-gold text-brand-bg hover:bg-brand-gold/80 transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg hover:bg-brand-gold/80 transition-colors">
                 Consult
               </button>
             </div>
@@ -253,10 +253,10 @@ export default function Home() {
               <a href="#" className="font-serif text-3xl sm:text-4xl text-brand-dark hover:text-brand-olive transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
             </div>
             <div className="mt-auto pt-6 pb-4 flex flex-col gap-3">
-              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-gold text-brand-bg transition-colors">
+              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg transition-colors">
                 Book a Consultation
               </button>
-              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase font-medium border border-brand-olive/40 text-brand-olive transition-colors">
+              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive transition-colors">
                 Learn More
               </button>
             </div>
@@ -505,7 +505,7 @@ export default function Home() {
                   <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
                     Explore the method
                   </button>
-                  <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark hover:text-brand-olive transition-colors group">
+                  <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
                     Learn
                     <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                   </button>
@@ -543,7 +543,7 @@ export default function Home() {
                 <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
                   Learn
                 </button>
-                <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark hover:text-brand-olive transition-colors group">
+                <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
                   Learn
                   <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </button>
@@ -719,7 +719,7 @@ export default function Home() {
               <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
                 Explore
               </button>
-              <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark hover:text-brand-olive transition-colors group">
+              <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
                 Learn More
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -841,7 +841,7 @@ export default function Home() {
                     placeholder="Enter your email" 
                     className="flex-1 bg-transparent border-b border-brand-dark/20 px-0 py-2 text-sm text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:border-brand-olive transition-colors rounded-none" 
                   />
-                  <button className="text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark hover:text-brand-olive transition-colors whitespace-nowrap">
+                  <button className="text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors whitespace-nowrap">
                     Subscribe
                   </button>
                 </div>
