@@ -106,3 +106,7 @@ body {
   background-color: var(--color-brand-bg);
   color: var(--color-brand-dark);
 }
+
+h1, h2, h3, h4 {
+  line-height: 1.0;
+}

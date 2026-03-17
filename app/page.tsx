@@ -104,7 +104,7 @@ const TimelineItem = ({ item, index }: { item: any, index: number }) => {
         className="[grid-area:1/2/2/3] md:text-right md:[grid-area:auto]"
         style={{ opacity }}
       >
-        <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-brand-dark tracking-tight leading-[1.1]">
+        <h3 className="font-serif text-3xl md:text-4xl lg:text-5xl text-brand-dark tracking-tight">
           {item.title}
         </h3>
       </motion.div>
@@ -268,7 +268,7 @@ export default function Home() {
       <section className="pt-40 md:pt-48 lg:pt-56 pb-16 md:pb-24 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1350px] mx-auto w-full">
         <FadeIn className="flex flex-col items-center w-full">
           <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 leading-[1.1] md:leading-[1.05] text-brand-dark text-balance max-w-6xl mx-auto w-full">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 text-brand-dark text-balance max-w-6xl mx-auto w-full">
             Intelligent restoration for the female nervous system
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-brand-dark/70 mb-10 md:mb-12 max-w-2xl mx-auto leading-relaxed font-light px-2 sm:px-0">
@@ -326,7 +326,7 @@ export default function Home() {
       <section className="py-24 px-6 flex flex-col items-center text-center max-w-4xl mx-auto">
         <FadeIn>
           <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">The Reclamation Method</div>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 leading-[1.1] text-brand-dark">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 text-brand-dark">
             This is not wellness. This is <br className="hidden md:block" />
             architecture.
           </h2>
@@ -371,7 +371,7 @@ export default function Home() {
                 <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-transparent z-0" />
                 <div className="relative z-10">
                   <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive mb-4">{card.eyebrow}</div>
-                  <h3 className="font-serif text-3xl mb-4 leading-[1.1]">{card.title}</h3>
+                  <h3 className="font-serif text-3xl mb-4">{card.title}</h3>
                   <p className="text-sm text-brand-bg/70 mb-8 leading-relaxed font-light">
                     {card.desc}
                   </p>
@@ -392,7 +392,7 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12 mb-24">
               <div className="max-w-3xl">
                 <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">The Framework</div>
-                <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[1.1] text-balance">
+                <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-balance">
                   A complete system built <br className="hidden md:block"/> on four integrated disciplines
                 </h2>
               </div>
@@ -466,7 +466,7 @@ export default function Home() {
                 <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">
                   Female nutrition architecture
                 </div>
-                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 leading-[1.1] text-brand-dark text-balance">
+                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 text-brand-dark text-balance">
                   The nutritional framework medicine has been missing
                 </h2>
                 <p className="text-base md:text-lg text-brand-dark/70 leading-relaxed font-light mb-10">
@@ -537,7 +537,7 @@ export default function Home() {
               </p>
               <ScrollRevealText 
                 text="Built from experience. Refined into method. Before the Reclamation Method, Karita Cassia founded Hom Wellness, an organic wellness brand that earned press recognition across Los Angeles. That work built the foundation. This is the evolution."
-                className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] tracking-tight leading-[1.05] text-brand-dark mb-12 flex flex-wrap justify-center"
+                className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] tracking-tight text-brand-dark mb-12 flex flex-wrap justify-center"
               />
               <div className="flex flex-wrap items-center justify-center gap-6">
                 <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
@@ -571,7 +571,7 @@ export default function Home() {
         <div className="w-full max-w-[1350px] mx-auto relative z-10">
           <FadeIn>
             <div className="max-w-2xl">
-              <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-brand-bg tracking-tight mb-8 leading-[1.1] text-balance">
+              <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-brand-bg tracking-tight mb-8 text-balance">
                 Meet Karita Cassia
               </h2>
               <p className="text-lg md:text-xl text-brand-bg/90 font-light leading-relaxed mb-10">
@@ -603,7 +603,7 @@ export default function Home() {
               <div className="container mx-auto">
                 <div className="mx-auto max-w-lg text-center">
                   <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold md:mb-4">Foundation</p>
-                  <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[1.1] text-brand-dark md:mb-6">
+                  <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-brand-dark md:mb-6">
                     Where the method comes from
                   </h2>
                   <p className="md:text-lg text-brand-dark/70 leading-relaxed font-light">
@@ -640,7 +640,7 @@ export default function Home() {
               <div className="container mx-auto">
                 <div className="mx-auto max-w-lg text-center">
                   <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold md:mb-4">Heritage</p>
-                  <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[1.1] text-brand-dark md:mb-6">
+                  <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-brand-dark md:mb-6">
                     Where precision meets purpose
                   </h2>
                   <p className="md:text-lg text-brand-dark/70 leading-relaxed font-light">
@@ -670,7 +670,7 @@ export default function Home() {
               <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">
                 Evidence
               </div>
-              <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight mb-8 leading-[1.1] text-brand-dark text-balance">
+              <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight mb-8 text-brand-dark text-balance">
                 Grounded in science. Tested in practice.
               </h2>
               <p className="text-lg md:text-xl text-brand-dark/70 leading-relaxed font-light">
@@ -732,7 +732,7 @@ export default function Home() {
       <section className="py-32 md:py-40 px-6 bg-brand-surface">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-6 leading-[1.1] text-brand-dark text-balance">
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-6 text-brand-dark text-balance">
               Insights on female biology and nervous system science
             </h2>
             <p className="text-base md:text-lg text-brand-dark/70 leading-relaxed font-light mb-12">
@@ -764,7 +764,7 @@ export default function Home() {
       <section className="py-32 md:py-40 px-6 bg-brand-dark text-brand-bg">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
-            <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight mb-8 leading-[1.1] text-balance">
+            <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight mb-8 text-balance">
               Begin your restoration now
             </h2>
             <p className="text-lg md:text-xl text-brand-bg/70 leading-relaxed font-light mb-12 max-w-2xl mx-auto">
