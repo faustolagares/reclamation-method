@@ -96,7 +96,7 @@ const TimelineItem = ({ item, index }: { item: any, index: number }) => {
   });
   
   const opacity = useTransform(scrollYProgress, [0, 0.15, 0.85, 1], [0.2, 1, 1, 0.2]);
-  const backgroundColor = useTransform(scrollYProgress, [0, 0.15, 0.85, 1], ["#EAE8E1", "#5A6B50", "#5A6B50", "#EAE8E1"]);
+  const backgroundColor = useTransform(scrollYProgress, [0, 0.15, 0.85, 1], ["#E2D5C0", "#C49A3C", "#C49A3C", "#E2D5C0"]);
 
   return (
     <div ref={ref} className="relative z-20 grid w-full auto-cols-fr grid-cols-[3rem_1fr] gap-y-6 py-16 sm:grid-cols-[4rem_1fr] md:w-auto md:grid-cols-[1fr_10rem_1fr] md:gap-y-0 lg:grid-cols-[1fr_12rem_1fr]">
@@ -253,7 +253,7 @@ export default function Home() {
               <a href="#" className="font-serif text-3xl sm:text-4xl text-brand-dark hover:text-brand-olive transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
             </div>
             <div className="mt-auto pt-6 pb-4 flex flex-col gap-3">
-              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-olive text-brand-bg transition-colors">
+              <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase font-medium bg-brand-gold text-brand-bg transition-colors">
                 Book a Consultation
               </button>
               <button className="w-full px-6 py-3.5 text-[10px] tracking-[0.2em] uppercase font-medium border border-brand-olive/40 text-brand-olive transition-colors">
@@ -267,7 +267,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-40 md:pt-48 lg:pt-56 pb-16 md:pb-24 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1350px] mx-auto w-full">
         <FadeIn className="flex flex-col items-center w-full">
-          <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
+          <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
           <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7rem] tracking-tight mb-6 md:mb-8 text-brand-dark text-balance max-w-6xl mx-auto w-full">
             Intelligent restoration for the female nervous system
           </h1>
@@ -275,7 +275,7 @@ export default function Home() {
             A neuroscience-informed framework that rebuilds your biological foundation through structured nourishment, nervous system regulation, and identity recalibration.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full sm:w-auto px-2 sm:px-0">
-            <button className="px-8 py-4 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors w-full sm:w-auto">
+            <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors w-full sm:w-auto">
               Book a Consultation
             </button>
             <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors w-full sm:w-auto">
@@ -285,21 +285,21 @@ export default function Home() {
 
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 w-full px-2 sm:px-0">
             <div className="flex items-center gap-3">
-              <Brain className="w-4 h-4 text-brand-olive shrink-0" />
+              <Brain className="w-4 h-4 text-brand-gold shrink-0" />
               <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">Neuroscience-Informed</span>
             </div>
 
             <div className="hidden sm:block w-px h-6 bg-brand-dark/10" />
 
             <div className="flex items-center gap-3">
-              <Clock className="w-4 h-4 text-brand-olive shrink-0" />
+              <Clock className="w-4 h-4 text-brand-gold shrink-0" />
               <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">15+ Years of Practice</span>
             </div>
 
             <div className="hidden sm:block w-px h-6 bg-brand-dark/10" />
 
             <div className="flex items-center gap-3">
-              <User className="w-4 h-4 text-brand-olive shrink-0" />
+              <User className="w-4 h-4 text-brand-gold shrink-0" />
               <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/50 font-medium">100% Personalized</span>
             </div>
           </div>
@@ -325,7 +325,7 @@ export default function Home() {
       {/* Architecture Section */}
       <section className="py-24 px-6 flex flex-col items-center text-center max-w-4xl mx-auto">
         <FadeIn>
-          <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">The Reclamation Method</div>
+          <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">The Reclamation Method</div>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 text-brand-dark">
             This is not wellness. This is <br className="hidden md:block" />
             architecture.
@@ -391,7 +391,7 @@ export default function Home() {
           <FadeIn>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12 mb-24">
               <div className="max-w-3xl">
-                <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">The Framework</div>
+                <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">The Framework</div>
                 <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-balance">
                   A complete system built <br className="hidden md:block"/> on four integrated disciplines
                 </h2>
@@ -400,7 +400,7 @@ export default function Home() {
                 <p className="text-base text-brand-bg/70 leading-relaxed font-light mb-8">
                   The Reclamation Method integrates four disciplines that address different layers of female biology. Each pillar strengthens a specific dimension of the body&apos;s internal architecture.
                 </p>
-                <button className="px-8 py-4 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors w-full sm:w-auto">
+                <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors w-full sm:w-auto">
                   Explore the Framework
                 </button>
               </div>
@@ -415,14 +415,14 @@ export default function Home() {
                   className="w-full py-8 md:py-12 flex items-center justify-between group text-left"
                 >
                   <div className="flex items-baseline gap-6 md:gap-16">
-                    <span className={`font-serif text-2xl md:text-4xl transition-colors duration-500 ${activePillar === i ? 'text-brand-olive' : 'text-brand-bg/30'}`}>
+                    <span className={`font-serif text-2xl md:text-4xl transition-colors duration-500 ${activePillar === i ? 'text-brand-gold' : 'text-brand-bg/30'}`}>
                       {pillar.num}
                     </span>
                     <h3 className={`font-serif text-3xl md:text-5xl lg:text-6xl tracking-tight transition-all duration-500 ${activePillar === i ? 'text-brand-bg italic' : 'text-brand-bg/70 group-hover:text-brand-bg'}`}>
                       {pillar.title}
                     </h3>
                   </div>
-                  <div className={`relative w-10 h-10 rounded-full border transition-colors duration-500 flex items-center justify-center shrink-0 ml-4 ${activePillar === i ? 'border-brand-olive text-brand-olive' : 'border-brand-bg/30 text-brand-bg/30 group-hover:border-brand-bg group-hover:text-brand-bg'}`}>
+                  <div className={`relative w-10 h-10 rounded-full border transition-colors duration-500 flex items-center justify-center shrink-0 ml-4 ${activePillar === i ? 'border-brand-gold text-brand-gold' : 'border-brand-bg/30 text-brand-bg/30 group-hover:border-brand-bg group-hover:text-brand-bg'}`}>
                     <motion.div animate={{ rotate: activePillar === i ? 45 : 0 }} transition={{ duration: 0.3 }}>
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M5 12h14"/></svg>
                     </motion.div>
@@ -463,7 +463,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:items-center md:gap-x-16 lg:gap-x-24">
             <FadeIn>
               <div>
-                <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">
+                <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">
                   Female nutrition architecture
                 </div>
                 <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8 text-brand-dark text-balance">
@@ -502,7 +502,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-6">
-                  <button className="px-8 py-4 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors">
+                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
                     Explore the method
                   </button>
                   <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark hover:text-brand-olive transition-colors group">
@@ -532,7 +532,7 @@ export default function Home() {
         <div className="max-w-[1350px] mx-auto">
           <FadeIn>
             <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-              <p className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6 md:mb-8">
+              <p className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6 md:mb-8">
                 The foundation
               </p>
               <ScrollRevealText 
@@ -583,7 +583,7 @@ export default function Home() {
                 women.
               </p>
               <div className="flex flex-wrap items-center gap-6">
-                <button className="px-8 py-4 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors">
+                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
                   Consult
                 </button>
                 <button className="px-8 py-4 border border-brand-bg/30 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg hover:bg-white/5 transition-colors">
@@ -602,7 +602,7 @@ export default function Home() {
             <div className="px-[5%] py-16 md:py-24 lg:py-28">
               <div className="container mx-auto">
                 <div className="mx-auto max-w-lg text-center">
-                  <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold md:mb-4">Foundation</p>
+                  <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold md:mb-4">Foundation</p>
                   <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-brand-dark md:mb-6">
                     Where the method comes from
                   </h2>
@@ -626,7 +626,7 @@ export default function Home() {
               <div className="container mx-auto">
                 <div ref={timelineRef} className="relative flex flex-col items-center justify-center">
                   <div className="absolute left-1.5 -z-20 h-full w-[3px] bg-brand-dark/10 md:left-auto">
-                    <motion.div style={{ height: timelineLineHeight }} className="absolute top-0 left-0 w-full bg-brand-olive origin-top" />
+                    <motion.div style={{ height: timelineLineHeight }} className="absolute top-0 left-0 w-full bg-brand-gold origin-top" />
                     <div className="absolute left-0 right-0 top-0 z-10 h-24 w-full bg-gradient-to-b from-brand-bg to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 z-10 h-24 w-full bg-gradient-to-t from-brand-bg to-transparent" />
                   </div>
@@ -639,7 +639,7 @@ export default function Home() {
             <div className="px-[5%] py-16 md:py-24 lg:py-28">
               <div className="container mx-auto">
                 <div className="mx-auto max-w-lg text-center">
-                  <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold md:mb-4">Heritage</p>
+                  <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold md:mb-4">Heritage</p>
                   <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-brand-dark md:mb-6">
                     Where precision meets purpose
                   </h2>
@@ -667,7 +667,7 @@ export default function Home() {
         <div className="max-w-[1350px] mx-auto">
           <FadeIn>
             <div className="mb-20 max-w-2xl">
-              <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive font-bold mb-6">
+              <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">
                 Evidence
               </div>
               <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight mb-8 text-brand-dark text-balance">
@@ -683,8 +683,8 @@ export default function Home() {
 
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-3 md:gap-x-12 lg:gap-x-20 border-t border-brand-dark/10 pt-16">
             <FadeIn delay={0.1}>
-              <div className="border-l border-brand-olive/30 pl-8">
-                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-olive mb-6 leading-none">
+              <div className="border-l border-brand-gold/40 pl-8">
+                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-gold mb-6 leading-none">
                   6
                 </p>
                 <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-dark">
@@ -693,8 +693,8 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
-              <div className="border-l border-brand-olive/30 pl-8">
-                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-olive mb-6 leading-none">
+              <div className="border-l border-brand-gold/40 pl-8">
+                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-gold mb-6 leading-none">
                   15+
                 </p>
                 <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-dark">
@@ -703,8 +703,8 @@ export default function Home() {
               </div>
             </FadeIn>
             <FadeIn delay={0.3}>
-              <div className="border-l border-brand-olive/30 pl-8">
-                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-olive mb-6 leading-none">
+              <div className="border-l border-brand-gold/40 pl-8">
+                <p className="font-serif text-7xl md:text-8xl lg:text-9xl text-brand-gold mb-6 leading-none">
                   100%
                 </p>
                 <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-dark">
@@ -747,7 +747,7 @@ export default function Home() {
                     placeholder="Your email address" 
                     className="flex-1 bg-transparent border-b border-brand-dark/20 px-0 py-3 text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:border-brand-olive transition-colors rounded-none" 
                   />
-                  <button className="px-8 py-4 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors whitespace-nowrap">
+                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors whitespace-nowrap">
                     Join the list
                   </button>
                 </div>
@@ -772,7 +772,7 @@ export default function Home() {
               needs and where you stand today.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6">
-              <button className="px-10 py-5 bg-brand-olive text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-sage transition-colors">
+              <button className="px-10 py-5 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
                 Book a Consultation
               </button>
               <button className="px-10 py-5 border border-brand-bg/30 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg hover:bg-white/5 transition-colors">
@@ -797,7 +797,7 @@ export default function Home() {
               </div>
               
               <div>
-                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-olive mb-6">Explore</h3>
+                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-gold mb-6">Explore</h3>
                 <ul className="space-y-4 text-sm text-brand-dark/70 font-light">
                   <li><a href="#" className="hover:text-brand-olive transition-colors">The Method</a></li>
                   <li><a href="#" className="hover:text-brand-olive transition-colors">About</a></li>
@@ -808,7 +808,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-olive mb-6">Connect</h3>
+                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-gold mb-6">Connect</h3>
                 <ul className="space-y-4 text-sm text-brand-dark/70 font-light">
                   <li><a href="#" className="hover:text-brand-olive transition-colors">Book Now</a></li>
                   <li><a href="#" className="hover:text-brand-olive transition-colors">Contact</a></li>
@@ -819,7 +819,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-olive mb-6">Legal</h3>
+                <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-gold mb-6">Legal</h3>
                 <ul className="space-y-4 text-sm text-brand-dark/70 font-light">
                   <li><a href="#" className="hover:text-brand-olive transition-colors">Privacy Policy</a></li>
                   <li><a href="#" className="hover:text-brand-olive transition-colors">Terms of Service</a></li>
@@ -830,7 +830,7 @@ export default function Home() {
 
             {/* Newsletter */}
             <div className="lg:col-span-4">
-              <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-olive mb-6">Updates</h3>
+              <h3 className="text-[10px] tracking-[0.2em] uppercase font-bold text-brand-gold mb-6">Updates</h3>
               <p className="text-sm text-brand-dark/70 font-light mb-6">
                 Stay informed on new frameworks and offerings.
               </p>

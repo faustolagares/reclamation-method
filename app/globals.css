@@ -95,11 +95,12 @@
   --font-serif: "Canela", ui-serif, Georgia, serif;
   --font-deck: "Canela Deck", "Canela", ui-serif, Georgia, serif;
 
-  --color-brand-bg: #F5F4F0;
-  --color-brand-surface: #EAE8E1;
-  --color-brand-dark: #121613;
-  --color-brand-olive: #5A6B50;
-  --color-brand-sage: #8A9A86;
+  --color-brand-bg: #F0E9DC;
+  --color-brand-surface: #E2D5C0;
+  --color-brand-dark: #1A1810;
+  --color-brand-olive: #3D5C35;
+  --color-brand-sage: #6B8F5E;
+  --color-brand-gold: #C49A3C;
 }
 
 body {
