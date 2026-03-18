@@ -612,7 +612,7 @@ export default function Home() {
           <div>
             <div className="px-[5%] py-16 md:py-24 lg:py-28">
               <div className="container mx-auto">
-                <div className="mx-auto max-w-lg text-center">
+                <div className="mx-auto max-w-2xl text-center">
                   <p className="mb-3 text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold md:mb-4">Foundation</p>
                   <h2 className="mb-5 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight text-brand-dark md:mb-6">
                     Where the method comes from
