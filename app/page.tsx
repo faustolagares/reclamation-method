@@ -274,7 +274,7 @@ export default function Home() {
             alt=""
             priority
           />
-          <div className="absolute inset-0 bg-brand-dark/50" />
+          <div className="absolute inset-0 bg-brand-dark/62" />
         </div>
 
         {/* Content */}
