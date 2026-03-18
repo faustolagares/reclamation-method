@@ -203,27 +203,27 @@ export default function Home() {
       {/* Navigation */}
       <nav className={`top-0 left-0 w-full z-50 flex items-center justify-center px-4 sm:px-6 py-4 sm:py-3 transition-colors duration-300 ${isMobileMenuOpen ? 'fixed bg-brand-bg' : 'absolute'}`}>
         <div className="w-full max-w-[1440px] flex items-center justify-between">
-          <div className={`text-xl sm:text-2xl font-serif font-bold tracking-tight relative z-50 ${isMobileMenuOpen ? 'text-brand-dark' : 'text-brand-bg'}`}>Reclamation Method</div>
-          <div className="hidden md:flex items-center gap-8 text-[10px] tracking-[0.2em] uppercase font-medium text-brand-bg/75">
-            <a href="#" className="hover:text-brand-bg transition-colors">Home</a>
-            <a href="#" className="hover:text-brand-bg transition-colors">The Method</a>
-            <a href="#" className="hover:text-brand-bg transition-colors">About</a>
-            <div className="flex items-center gap-1 cursor-pointer hover:text-brand-bg transition-colors">
+          <div className="text-xl sm:text-2xl font-serif font-bold tracking-tight relative z-50 text-brand-dark">Reclamation Method</div>
+          <div className="hidden md:flex items-center gap-8 text-[10px] tracking-[0.2em] uppercase font-medium text-brand-dark/70">
+            <a href="#" className="hover:text-brand-olive transition-colors">Home</a>
+            <a href="#" className="hover:text-brand-olive transition-colors">The Method</a>
+            <a href="#" className="hover:text-brand-olive transition-colors">About</a>
+            <div className="flex items-center gap-1 cursor-pointer hover:text-brand-olive transition-colors">
               Work With Me
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
             </div>
           </div>
           <div className="flex items-center gap-3 sm:gap-4 relative z-50">
             <div className="hidden md:flex items-center gap-4">
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase border border-brand-bg/30 text-brand-bg hover:border-brand-bg transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase border border-brand-dark/20 text-brand-dark hover:border-brand-dark transition-colors">
                 Learn
               </button>
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase bg-brand-bg text-brand-dark hover:bg-brand-bg/90 transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase bg-brand-dark text-brand-bg hover:bg-brand-dark/80 transition-colors">
                 Consult
               </button>
             </div>
             <button 
-              className={`md:hidden p-2 -mr-2 transition-colors ${isMobileMenuOpen ? 'text-brand-dark' : 'text-brand-bg'}`}
+              className="md:hidden p-2 -mr-2 text-brand-dark hover:text-brand-olive transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
             >
@@ -268,30 +268,29 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="/photos/karitacassia-bio.JPEG"
+            src="/photos/hero-section-bg.png"
             fill
             className="object-cover object-center"
-            alt="Karita Cassia"
+            alt=""
             priority
           />
-          <div className="absolute inset-0 bg-brand-dark/55" />
         </div>
 
         {/* Content */}
         <div className="relative z-10 pt-40 md:pt-48 lg:pt-56 pb-24 md:pb-32 px-4 sm:px-6 flex flex-col items-center text-center max-w-[1440px] mx-auto w-full">
           <FadeIn className="flex flex-col items-center w-full">
             <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">A Neuroscience-Informed Framework for Women</div>
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-6 md:mb-8 text-brand-bg text-balance max-w-6xl mx-auto w-full">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight mb-6 md:mb-8 text-brand-dark text-balance max-w-6xl mx-auto w-full">
               Intelligent restoration<br className="hidden sm:block lg:hidden" /> for the female nervous system
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-brand-bg/75 mb-10 md:mb-12 max-w-2xl mx-auto leading-relaxed font-light px-2 sm:px-0">
+            <p className="text-sm sm:text-base md:text-lg text-brand-dark/65 mb-10 md:mb-12 max-w-2xl mx-auto leading-relaxed font-light px-2 sm:px-0">
               A neuroscience-informed framework that rebuilds your biological foundation through structured nourishment, nervous system regulation, and identity recalibration.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full sm:w-auto px-2 sm:px-0">
-              <button className="px-8 py-4 bg-brand-bg text-brand-dark text-[10px] tracking-[0.2em] uppercase hover:bg-brand-bg/90 transition-colors w-full sm:w-auto">
+              <button className="px-8 py-4 bg-brand-dark text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-dark/80 transition-colors w-full sm:w-auto">
                 Book a Consultation
               </button>
-              <button className="px-8 py-4 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors w-full sm:w-auto">
+              <button className="px-8 py-4 border border-brand-dark/25 text-brand-dark text-[10px] tracking-[0.2em] uppercase hover:border-brand-dark transition-colors w-full sm:w-auto">
                 Learn About The Method
               </button>
             </div>
@@ -299,21 +298,21 @@ export default function Home() {
             <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 w-full px-2 sm:px-0">
               <div className="flex items-center gap-3">
                 <Brain className="w-4 h-4 text-brand-gold shrink-0" />
-                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-bg/55 font-medium">Neuroscience-Informed</span>
+                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/45 font-medium">Neuroscience-Informed</span>
               </div>
 
-              <div className="hidden sm:block w-px h-6 bg-brand-bg/20" />
+              <div className="hidden sm:block w-px h-6 bg-brand-dark/15" />
 
               <div className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-brand-gold shrink-0" />
-                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-bg/55 font-medium">15+ Years of Practice</span>
+                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/45 font-medium">15+ Years of Practice</span>
               </div>
 
-              <div className="hidden sm:block w-px h-6 bg-brand-bg/20" />
+              <div className="hidden sm:block w-px h-6 bg-brand-dark/15" />
 
               <div className="flex items-center gap-3">
                 <User className="w-4 h-4 text-brand-gold shrink-0" />
-                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-bg/55 font-medium">100% Personalized</span>
+                <span className="text-[10px] tracking-[0.15em] uppercase text-brand-dark/45 font-medium">100% Personalized</span>
               </div>
             </div>
           </FadeIn>
