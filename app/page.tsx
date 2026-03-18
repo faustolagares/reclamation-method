@@ -216,10 +216,10 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3 sm:gap-4 relative z-50">
             <div className="hidden md:flex items-center gap-4">
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase border border-brand-dark/20 text-brand-dark hover:border-brand-dark transition-colors">
                 Learn
               </button>
-              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg hover:bg-brand-gold/80 transition-colors">
+              <button className="px-6 py-3 text-[10px] tracking-[0.2em] uppercase bg-brand-dark text-brand-bg hover:bg-brand-dark/80 transition-colors">
                 Consult
               </button>
             </div>
@@ -253,10 +253,10 @@ export default function Home() {
               <a href="#" className="font-serif text-3xl sm:text-4xl text-brand-dark hover:text-brand-olive transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
             </div>
             <div className="mt-auto pt-6 pb-4 flex flex-col gap-3">
-              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase bg-brand-gold text-brand-bg transition-colors">
+              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase bg-brand-dark text-brand-bg transition-colors">
                 Book a Consultation
               </button>
-              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase border border-brand-olive/40 text-brand-olive transition-colors">
+              <button className="w-full px-8 lg:px-12 py-3.5 text-[10px] tracking-[0.2em] uppercase border border-brand-dark/20 text-brand-dark transition-colors">
                 Learn More
               </button>
             </div>
@@ -275,10 +275,10 @@ export default function Home() {
             A neuroscience-informed framework that rebuilds your biological foundation through structured nourishment, nervous system regulation, and identity recalibration.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full sm:w-auto px-2 sm:px-0">
-            <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors w-full sm:w-auto">
+            <button className="px-8 py-4 bg-brand-dark text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-dark/80 transition-colors w-full sm:w-auto">
               Book a Consultation
             </button>
-            <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors w-full sm:w-auto">
+            <button className="px-8 py-4 border border-brand-dark/20 text-brand-dark text-[10px] tracking-[0.2em] uppercase hover:border-brand-dark transition-colors w-full sm:w-auto">
               Learn About The Method
             </button>
           </div>
@@ -400,7 +400,7 @@ export default function Home() {
                 <p className="text-base text-brand-bg/70 leading-relaxed font-light mb-8">
                   The Reclamation Method integrates four disciplines that address different layers of female biology. Each pillar strengthens a specific dimension of the body&apos;s internal architecture.
                 </p>
-                <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors w-full sm:w-auto">
+                <button className="px-8 py-4 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors w-full sm:w-auto">
                   Explore the Framework
                 </button>
               </div>
@@ -502,7 +502,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-6">
-                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
+                  <button className="px-8 py-4 bg-brand-dark text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-dark/80 transition-colors">
                     Explore the method
                   </button>
                   <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
@@ -540,7 +540,7 @@ export default function Home() {
                 className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] tracking-tight text-brand-dark mb-12 flex flex-wrap justify-center"
               />
               <div className="flex flex-wrap items-center justify-center gap-6">
-                <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
+                <button className="px-8 py-4 border border-brand-dark/20 text-brand-dark text-[10px] tracking-[0.2em] uppercase hover:border-brand-dark transition-colors">
                   Learn
                 </button>
                 <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
@@ -583,7 +583,7 @@ export default function Home() {
                 women.
               </p>
               <div className="flex flex-wrap items-center gap-6">
-                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
+                  <button className="px-8 py-4 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors">
                   Consult
                 </button>
                 <button className="px-8 py-4 border border-brand-bg/30 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg hover:bg-white/5 transition-colors">
@@ -716,7 +716,7 @@ export default function Home() {
 
           <FadeIn delay={0.4}>
             <div className="mt-20 flex flex-wrap items-center gap-6">
-              <button className="px-8 py-4 border border-brand-olive/40 text-brand-olive text-[10px] tracking-[0.2em] uppercase hover:border-brand-olive hover:bg-brand-olive/5 transition-colors">
+              <button className="px-8 py-4 border border-brand-dark/20 text-brand-dark text-[10px] tracking-[0.2em] uppercase hover:border-brand-dark transition-colors">
                 Explore
               </button>
               <button className="inline-flex items-center text-[10px] tracking-[0.2em] uppercase text-brand-dark hover:text-brand-olive transition-colors group">
@@ -747,7 +747,7 @@ export default function Home() {
                     placeholder="Your email address" 
                     className="flex-1 bg-transparent border-b border-brand-dark/20 px-0 py-3 text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:border-brand-olive transition-colors rounded-none" 
                   />
-                  <button className="px-8 py-4 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors whitespace-nowrap">
+                  <button className="px-8 py-4 bg-brand-dark text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-dark/80 transition-colors whitespace-nowrap">
                     Join the list
                   </button>
                 </div>
@@ -772,7 +772,7 @@ export default function Home() {
               needs and where you stand today.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6">
-              <button className="px-10 py-5 bg-brand-gold text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:bg-brand-gold/80 transition-colors">
+              <button className="px-10 py-5 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors">
                 Book a Consultation
               </button>
               <button className="px-10 py-5 border border-brand-bg/30 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg hover:bg-white/5 transition-colors">
