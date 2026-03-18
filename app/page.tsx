@@ -268,7 +268,7 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="/photos/hero-section-bg.png"
+            src="/photos/hero-bg.png"
             fill
             className="object-cover object-center"
             alt=""
