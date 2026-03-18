@@ -357,19 +357,19 @@ export default function Home() {
               eyebrow: "Nervous System",
               title: "Regulation as a Foundation",
               desc: "Every protocol begins with the nervous system. When the body feels safe, everything else becomes possible.",
-              image: "/photos/10212021%20HOM%20Food5935_Web.JPEG"
+              image: "/photos/card-1.avif"
             },
             {
               eyebrow: "Female Nutrition Architecture",
               title: "Nourishment With Structure",
               desc: "A nutritional framework built around female physiology, hormonal cycles, and metabolic function. Not adapted. Original.",
-              image: "/photos/10212021%20HOM%20Food5920_Web.JPEG"
+              image: "/photos/card-2.avif"
             },
             {
               eyebrow: "Identity Recalibration",
               title: "Who You Are After the Work",
               desc: "Sustainable transformation requires more than physical change. It addresses the identity shift that makes results last.",
-              image: "/photos/IMG_3682.JPG"
+              image: "/photos/card-3.avif"
             }
           ].map((card, i) => (
             <FadeIn key={i} delay={i * 0.1}>
