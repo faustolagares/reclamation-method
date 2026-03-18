@@ -357,19 +357,19 @@ export default function Home() {
               eyebrow: "Nervous System",
               title: "Regulation as a Foundation",
               desc: "Every protocol begins with the nervous system. When the body feels safe, everything else becomes possible.",
-              image: "/photos/card-1.avif"
+              image: "/photos/Card1.png"
             },
             {
               eyebrow: "Female Nutrition Architecture",
               title: "Nourishment With Structure",
               desc: "A nutritional framework built around female physiology, hormonal cycles, and metabolic function. Not adapted. Original.",
-              image: "/photos/card-2.avif"
+              image: "/photos/Card2.png"
             },
             {
               eyebrow: "Identity Recalibration",
               title: "Who You Are After the Work",
               desc: "Sustainable transformation requires more than physical change. It addresses the identity shift that makes results last.",
-              image: "/photos/card-3.avif"
+              image: "/photos/Card3.png"
             }
           ].map((card, i) => (
             <FadeIn key={i} delay={i * 0.1}>
@@ -382,7 +382,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-transparent z-0" />
                 <div className="relative z-10">
-                  <div className="text-[10px] tracking-[0.2em] uppercase text-brand-olive mb-4">{card.eyebrow}</div>
+                  <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold mb-4">{card.eyebrow}</div>
                   <h3 className="font-serif text-3xl mb-4">{card.title}</h3>
                   <p className="text-sm text-brand-bg/70 mb-8 leading-relaxed font-light">
                     {card.desc}
