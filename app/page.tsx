@@ -54,8 +54,8 @@ const timelineItems = [
     description:
       "Growing up in a household that treated food as nourishment, not restriction, gave her a different lens on how women should eat. Family traditions around eating became the first language of wellness.",
     image: {
-      src: "https://picsum.photos/seed/timeline1/800/600",
-      alt: "Relume placeholder image 1",
+      src: "/photos/karitacassia-photo.JPEG",
+      alt: "Karita Cassia",
     },
     title: "First generation American with Brazilian and Spanish heritage"
   },
@@ -63,8 +63,8 @@ const timelineItems = [
     description:
       "Work with women under performance and aesthetic demands built her understanding of the female body in real conditions. She learned what the body needs when it is asked to excel.",
     image: {
-      src: "https://picsum.photos/seed/timeline2/800/600",
-      alt: "Relume placeholder image 2",
+      src: "/photos/IMG_3611.JPG",
+      alt: "Karita Cassia in practice",
     },
     title: "Where precision meets purpose"
   },
@@ -72,8 +72,8 @@ const timelineItems = [
     description:
       "The realization that traditional wellness models were failing women led to the development of a new framework. One built specifically for female physiology.",
     image: {
-      src: "https://picsum.photos/seed/timeline3/800/600",
-      alt: "Relume placeholder image 3",
+      src: "/photos/10212021%20HOM%20Food0075_Web.JPEG",
+      alt: "Nourishment philosophy",
     },
     title: "A new paradigm for female health"
   },
@@ -81,8 +81,8 @@ const timelineItems = [
     description:
       "Integrating neuroscience, metabolic health, and behavioral psychology into a single cohesive system. The Reclamation Method is born.",
     image: {
-      src: "https://picsum.photos/seed/timeline4/800/600",
-      alt: "Relume placeholder image 4",
+      src: "/photos/-11.JPEG",
+      alt: "The Reclamation Method",
     },
     title: "The birth of The Reclamation Method"
   },
@@ -134,7 +134,6 @@ const TimelineItem = ({ item, index }: { item: any, index: number }) => {
             alt={item.image.alt}
             fill
             className="object-cover"
-            referrerPolicy="no-referrer"
           />
         </div>
       </motion.div>
@@ -177,25 +176,25 @@ export default function Home() {
       num: "01",
       title: "Nervous System Regulation",
       desc: "Understanding how stress, recovery, and emotional states influence digestion, hormones, and long-term health.",
-      image: "https://picsum.photos/seed/nervous/800/1000"
+      image: "/photos/10212021%20HOM%20Food5935_Web.JPEG"
     },
     {
       num: "02",
       title: "Female Nutrition Architecture",
       desc: "Designing nourishment around female physiology — emphasizing mineral balance, metabolic stability, and sustainable energy.",
-      image: "https://picsum.photos/seed/nutrition/800/1000"
+      image: "/photos/10212021%20HOM%20Food0075_Web.JPEG"
     },
     {
       num: "03",
       title: "Rhythm, Movement & Sweat",
       desc: "Supporting vitality through natural rhythms, intentional movement, and physical exertion that restores rather than depletes the body.",
-      image: "https://picsum.photos/seed/movement/800/1000"
+      image: "/photos/IMG_3682.JPG"
     },
     {
       num: "04",
       title: "Sustainable Vitality Practices",
       desc: "Long-term habits around rest, nourishment, environment, and lifestyle that allow health to compound over time.",
-      image: "https://picsum.photos/seed/vitality/800/1000"
+      image: "/photos/10212021%20HOM%20Food5920_Web.JPEG"
     }
   ];
 
@@ -311,12 +310,11 @@ export default function Home() {
         <FadeIn delay={0.2}>
           <div className="relative w-full h-[50vh] md:h-[80vh] bg-brand-surface flex items-center justify-center overflow-hidden">
             <Image
-              src="https://picsum.photos/seed/hero-image/1920/800"
-              alt="Hero image"
+              src="/photos/hero-section.JPEG"
+              alt="Karita Cassia"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               priority
-              referrerPolicy="no-referrer"
             />
           </div>
         </FadeIn>
@@ -344,19 +342,19 @@ export default function Home() {
               eyebrow: "Nervous System",
               title: "Regulation as a Foundation",
               desc: "Every protocol begins with the nervous system. When the body feels safe, everything else becomes possible.",
-              image: "https://picsum.photos/seed/card1/600/800"
+              image: "/photos/10212021%20HOM%20Food5935_Web.JPEG"
             },
             {
               eyebrow: "Female Nutrition Architecture",
               title: "Nourishment With Structure",
               desc: "A nutritional framework built around female physiology, hormonal cycles, and metabolic function. Not adapted. Original.",
-              image: "https://picsum.photos/seed/card2/600/800"
+              image: "/photos/10212021%20HOM%20Food5920_Web.JPEG"
             },
             {
               eyebrow: "Identity Recalibration",
               title: "Who You Are After the Work",
               desc: "Sustainable transformation requires more than physical change. It addresses the identity shift that makes results last.",
-              image: "https://picsum.photos/seed/card3/600/800"
+              image: "/photos/IMG_3682.JPG"
             }
           ].map((card, i) => (
             <FadeIn key={i} delay={i * 0.1}>
@@ -366,7 +364,6 @@ export default function Home() {
                   alt={card.title}
                   fill
                   className="object-cover absolute inset-0 z-0 group-hover:scale-105 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-brand-dark via-brand-dark/60 to-transparent z-0" />
                 <div className="relative z-10">
@@ -442,7 +439,6 @@ export default function Home() {
                         alt={pillar.title}
                         fill
                         className="object-cover"
-                        referrerPolicy="no-referrer"
                       />
                     </div>
                     <div className="lg:col-span-7 lg:pl-12">
@@ -516,11 +512,10 @@ export default function Home() {
             <FadeIn delay={0.2}>
               <div className="relative aspect-[4/5] w-full overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/fna2/800/1000"
+                  src="/photos/karitacassia-bio.JPEG"
                   fill
-                  className="object-cover"
-                  alt="Female nutrition architecture"
-                  referrerPolicy="no-referrer"
+                  className="object-cover object-center"
+                  alt="Karita Cassia"
                 />
               </div>
             </FadeIn>
@@ -553,28 +548,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Meet Karita Cassia Section (Relume Header 5 Adapted) */}
-      <section className="relative min-h-[80vh] flex items-center py-32 px-8 lg:px-12 overflow-hidden">
-        {/* Background Image & Overlay */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://picsum.photos/seed/karita/1920/1080"
-            fill
-            className="object-cover"
-            alt="Karita Cassia"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 bg-brand-dark/60" />
-        </div>
-
-        {/* Content */}
-        <div className="w-full max-w-[1440px] mx-auto relative z-10">
+      {/* Meet Karita Cassia Section */}
+      <section className="grid grid-cols-1 md:grid-cols-2 min-h-[80vh] overflow-hidden">
+        {/* Left column — dark background with content */}
+        <div className="bg-brand-dark flex items-center py-24 px-8 lg:px-16 order-2 md:order-1">
           <FadeIn>
-            <div className="max-w-2xl">
-              <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-brand-bg tracking-tight mb-8 text-balance">
+            <div className="max-w-lg">
+              <div className="text-[10px] tracking-[0.2em] uppercase text-brand-gold font-bold mb-6">
                 Meet Karita Cassia
+              </div>
+              <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-brand-bg tracking-tight mb-8 text-balance">
+                The woman behind the method
               </h2>
-              <p className="text-lg md:text-xl text-brand-bg/90 font-light leading-relaxed mb-10">
+              <p className="text-lg text-brand-bg/70 font-light leading-relaxed mb-10">
                 Karita Cassia is the founder of The Reclamation Method, a
                 neuroscience-informed framework designed to restore women to
                 physiological stability, clarity, and sustainable strength. Her
@@ -583,7 +569,7 @@ export default function Home() {
                 women.
               </p>
               <div className="flex flex-wrap items-center gap-6">
-                  <button className="px-8 py-4 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors">
+                <button className="px-8 py-4 border border-brand-bg/40 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg transition-colors">
                   Consult
                 </button>
                 <button className="px-8 py-4 border border-brand-bg/30 text-brand-bg text-[10px] tracking-[0.2em] uppercase hover:border-brand-bg hover:bg-white/5 transition-colors">
@@ -592,6 +578,16 @@ export default function Home() {
               </div>
             </div>
           </FadeIn>
+        </div>
+
+        {/* Right column — vertical photo */}
+        <div className="relative min-h-[70vh] md:min-h-[80vh] order-1 md:order-2">
+          <Image
+            src="/photos/karitacassia-vertical-photo.JPEG"
+            fill
+            className="object-cover object-center"
+            alt="Karita Cassia"
+          />
         </div>
       </section>
 
