@@ -1,139 +1,67 @@
 @import "tailwindcss";
 
-/* ─── Canela ─────────────────────────────────────────── */
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-Regular-Trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-RegularItalic-Trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-Light-Trial.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-Medium-Trial.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-MediumItalic-Trial.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela";
-  src: url("/fonts/canela/Canela Family/Canela-LightItalic-Trial.otf") format("opentype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ─── Canela Deck (H2 / H3 médios) ──────────────────── */
-@font-face {
-  font-family: "Canela Deck";
-  src: url("/fonts/canela/Canela Deck Family/CanelaDeck-Regular-Trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Canela Deck";
-  src: url("/fonts/canela/Canela Deck Family/CanelaDeck-RegularItalic-Trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ─── Neue Haas Grotesk Text ─────────────────────────── */
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-55roman-trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-56italic-trial.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-65medium-trial.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-66mediumitalic-trial.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-75bold-trial.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Neue Haas Grotesk";
-  src: url("/fonts/neue-haas-grotesk/neuehaasgrottext-76bolditalic-trial.otf") format("opentype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
 @theme {
-  --font-sans: "Neue Haas Grotesk", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Canela", ui-serif, Georgia, serif;
-  --font-deck: "Canela Deck", "Canela", ui-serif, Georgia, serif;
+  --color-ivory-mist-50: #f9f7eb;
+  --color-ivory-mist-100: #f4eed7;
+  --color-ivory-mist-200: #e8deb0;
+  --color-ivory-mist-300: #ddcd88;
+  --color-ivory-mist-400: #d1bd61;
+  --color-ivory-mist-500: #c6ac39;
+  --color-ivory-mist-600: #9e8a2e;
+  --color-ivory-mist-700: #776722;
+  --color-ivory-mist-800: #4f4517;
+  --color-ivory-mist-900: #28220b;
+  --color-ivory-mist-950: #1c1808;
 
-  --color-brand-bg: #F0E9DC;
-  --color-brand-surface: #E2D5C0;
-  --color-brand-dark: #2B2318;
-  --color-brand-olive: #3D5C35;
-  --color-brand-sage: #6B8F5E;
-  --color-brand-gold: #C49A3C;
+  --color-antique-white-50: #f8f3ec;
+  --color-antique-white-100: #f1e7da;
+  --color-antique-white-200: #e3d0b5;
+  --color-antique-white-300: #d6b88f;
+  --color-antique-white-400: #c8a16a;
+  --color-antique-white-500: #ba8945;
+  --color-antique-white-600: #956e37;
+  --color-antique-white-700: #705229;
+  --color-antique-white-800: #4a371c;
+  --color-antique-white-900: #251b0e;
+  --color-antique-white-950: #1a130a;
+
+  --color-porcelain-50: #fbf7ea;
+  --color-porcelain-100: #f7eed4;
+  --color-porcelain-200: #eeddaa;
+  --color-porcelain-300: #e6cc7f;
+  --color-porcelain-400: #ddbb55;
+  --color-porcelain-500: #d5aa2a;
+  --color-porcelain-600: #aa8822;
+  --color-porcelain-700: #806619;
+  --color-porcelain-800: #554411;
+  --color-porcelain-900: #2b2208;
+  --color-porcelain-950: #1e1806;
+
+  --color-carbon-black-50: #f2f2f3;
+  --color-carbon-black-100: #e5e5e6;
+  --color-carbon-black-200: #cbcbcd;
+  --color-carbon-black-300: #b1b1b4;
+  --color-carbon-black-400: #97979b;
+  --color-carbon-black-500: #7d7d82;
+  --color-carbon-black-600: #646468;
+  --color-carbon-black-700: #4b4b4e;
+  --color-carbon-black-800: #323234;
+  --color-carbon-black-900: #19191a;
+  --color-carbon-black-950: #111112;
+  
+  --font-serif: var(--font-serif), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-libre: var(--font-libre), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-  background-color: var(--color-brand-bg);
-  color: var(--color-brand-dark);
+  background-color: var(--color-ivory-mist-50);
+  color: var(--color-carbon-black-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h3, h4 {
-  line-height: 1.0;
-  font-weight: 400;
-}
-
-h2 {
-  line-height: 1.0;
-  font-weight: 500;
-}
-
-@layer base {
-  button {
-    font-weight: 700;
-  }
+.text-balance {
+  text-wrap: balance;
 }

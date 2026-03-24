@@ -1,35 +1,43 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
+import { Cormorant_Garamond, Inter, Libre_Franklin } from 'next/font/google';
 import './globals.css';
 
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-serif',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const libreFranklin = Libre_Franklin({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-libre',
+  display: 'swap',
+});
+
 export const metadata: Metadata = {
-  title: 'Reclamation Method | Karita Cassia',
-  description: 'A complete framework integrating four disciplines into one cohesive system. Built on science. Designed for women who are ready to operate differently.',
-  openGraph: {
-    title: 'Reclamation Method | Karita Cassia',
-    description: 'A complete framework integrating four disciplines into one cohesive system. Built on science. Designed for women who are ready to operate differently.',
-    images: [
-      {
-        url: 'https://picsum.photos/seed/reclamation/1200/630',
-        width: 1200,
-        height: 630,
-        alt: 'Reclamation Method',
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Reclamation Method | Karita Cassia',
-    description: 'A complete framework integrating four disciplines into one cohesive system. Built on science. Designed for women who are ready to operate differently.',
-    images: ['https://picsum.photos/seed/reclamation/1200/630'],
-  },
+  title: 'Reclamation Method',
+  description: 'Intelligent restoration of the female nervous system.',
 };
 
-export default function RootLayout({children}: {children: React.ReactNode}) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
-      <body className="font-sans bg-brand-bg text-brand-dark antialiased" suppressHydrationWarning>{children}</body>
+    <html lang="en" className={`${cormorant.variable} ${inter.variable} ${libreFranklin.variable}`}>
+      <body className="bg-ivory-mist-50 text-carbon-black-900 antialiased selection:bg-antique-white-600 selection:text-ivory-mist-50" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
